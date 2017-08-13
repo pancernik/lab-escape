@@ -46,5 +46,5 @@ encoding of the HTTP messages. Most likely, I would make the API RESTfull and JS
 that's what the clients would probably prefer.
 
 I would also avoid using an exception in the case of no escape path. Such a maze should be considered 
-correct (e.g. Minotaur's Labyrinth), therefore the application should not use exceptions 
+correct (e.g. Minotaur's Labirynth), therefore the application should not use exceptions 
 to handle this case.
